@@ -1,7 +1,7 @@
-# TITLE
+# Pipeline name
 
-# BACKGROUND
+# Background
 
-# INSTALLATION
+# Installation
 
 # License
