@@ -1,4 +1,5 @@
-# Pipeline name
+# BioMizuchi
+Pipeline for NGS variant calling from raw sequencing data
 
 # Background
 
