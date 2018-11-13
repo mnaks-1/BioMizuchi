@@ -1,6 +1,5 @@
 # BioMizuchi
 Pipeline for NGS variant calling from raw sequencing data
-Written in Bash
 
 # Background
 
@@ -19,3 +18,9 @@ make
 
 # License
 GNU Affero General Public License v3.0
+
+# Code
+Bash
+
+# Version
+Version 1.0, created 2018-11-13 as part of an assignment
