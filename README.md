@@ -3,7 +3,7 @@ Pipeline for NGS variant calling from raw sequencing data
 
 # Background
 
-The advent of next generation sequencing (NGS) has allowed for faster processing times and deeper read coverage. The BioMizuchi tool can be summarized in a few steps below: 
+The advent of next generation sequencing (NGS) has allowed for faster processing times and deeper read coverage. This depth inspired the name "Mizuchi", which are Japanese water dragons. The BioMizuchi tool can be summarized in a few steps below: 
 1. Demultiplexing of FASTQ file
 2. Cleaning and trimming
 3. Alignment to the reference genome
