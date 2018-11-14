@@ -3,6 +3,13 @@ Pipeline for NGS variant calling from raw sequencing data
 
 # Background
 
+The advent of next generation sequencing (NGS) has allowed for faster processing times and deeper read coverage. The BioMizuchi tool can be summarized in a few steps below: 
+1. Demultiplexing of FASTQ file
+2. Cleaning and trimming
+3. Alignment to the reference genome
+4. Convert sam files to binary format (bam files)
+5. Generate variant call formatted (vcf) table
+
 # Installation
 
 Requirements:
@@ -13,8 +20,10 @@ Requirements:
 - htslib http://www.htslib.org/
 - bcftools http://samtools.github.io/bcftools/
 
-git clone https://github.com/mnaks-1/Biomizuchi.git
-make
+chmod +x biomizuchi.sh
+cd biomizuchi.sh
+
+For debugging, please run: bash -nv biomizuchi.sh
 
 # License
 GNU Affero General Public License v3.0
